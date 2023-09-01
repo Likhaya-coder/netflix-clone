@@ -1,0 +1,84 @@
+.overlay {
+    position: absolute;
+    width: 100vw;
+    height: 95vh;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 35%, rgba(0, 0, 0, 0.8) 100%);
+    z-index: 2;
+    overflow: hidden;
+}
+
+.hero {
+    width: 100vw;
+    height: 95vh;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/697632fc-99c3-4885-bdbf-c99a8ffceec5/ZA-en-20230828-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-position: center center;
+    object-fit: cover;
+    transform: scale(1.25) translateY(-10%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-bottom: 8px solid rgb(46, 45, 45);
+}
+
+.content {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.content h3 {
+    font-size: 1.6em;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    white-space: nowrap;
+}
+
+.content h4 {
+    font-size: 1.4em;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    white-space: nowrap;
+}
+
+.signup {
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.signup input {
+    width: 360px;
+    padding: 20px 10px;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 2px;
+    background: rgba(15, 15, 15, 0.5);
+    margin-right: 7px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.signup button {
+    padding: 20px 30px;
+    background-color: rgb(253, 15, 15);
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

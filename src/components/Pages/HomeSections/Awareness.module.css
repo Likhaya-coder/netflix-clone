@@ -1,0 +1,24 @@
+.awareness {
+    display: flex;
+    justify-content: space-between;
+}
+
+.awareness div {
+    color: white;
+    text-align: center;
+}
+
+.awareness div h1 {
+    font-size: 3em;
+}
+
+.awareness .background-image {
+    width: auto;
+    height: auto;
+    background: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 100;
+}
